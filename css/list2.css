@@ -1,0 +1,64 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+.logo{
+    padding-top: 18px;
+}
+.registerarea{
+
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3{
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 12px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+/* 头部end */
+
+.container {
+    padding: 20px;
+  }
+  .container .banner {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .container .box {
+    margin-bottom: 20px;
+  }
+  .container .grids-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .grids-box div {
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    display: inline-flex;
+  }
+
+
+/* 尾部 star */
+.mod_copyright{
+    text-align: center;
+    padding-top: 20px;
+}
+.links{
+    margin-bottom: 15px;
+}
+.copyright{
+    line-height: 20px;
+}

@@ -1,0 +1,112 @@
+.nav{
+    overflow: hidden;
+}
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding:3px 0 0 14px ;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+    
+}
+.sk_list ul li a{
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding:0 30px;
+}
+.sk_con{
+    float: left;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a{
+    display: block;
+    line-height: 49px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\ea50';
+    font-family: 'icomoon'
+}
+.sk_bd{
+    margin-top: 25px;
+    overflow:hidden
+}
+.sk_bd ul{
+    width: 1212px;
+}
+.sk_cbd {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin: 0 12px 15px 0;
+}
+.sk_cbd:hover{
+    border: 1px solid #c81523;
+}
+.sk_bd_title{
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    padding: 10px;
+}
+.sk_bd_price{
+    padding:0 10px;
+}
+.sk_bd_price em{
+
+    font-size: 22px;
+    color: #e60012;
+}
+.sk_bd_price del{
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+}
+.sk_bd_progess{
+    padding: 0 10px;
+}
+.bar{
+    display: inline-block;
+    width: 130px;
+    height: 12px;
+    border-radius: 6px;
+    margin: 0 5px;
+    vertical-align: middle;
+    border: 1px solid #c81523;
+    overflow: hidden;
+}
+.bar_in{
+    width: 87%;
+    height: 10px;
+    background-color: #f24349;
+    border-radius: 5px;
+}
+.sk_bd_progess em,.sk_bd_progess i{
+    color: #f24349;
+}
+.sk_bd_buy{
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 289px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    background-color: #b1191a;
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+.reg-form{
+    padding-top: 100px;
+}
+.btn{
+    margin-left: 100px;
+}
+.num,
+.psw{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
